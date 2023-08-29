@@ -11,6 +11,9 @@ BCuserapproval plugin helps clients to big commerce users once it is approved fr
 Process: Create Typeform register form like first name, last name, email, phone, invitation code, etc. then add web hook user like said in the setting section of this plugin. then installed this plugin and activated it.
 Once the user fills out the form, it will create a bcusers at the wp site and you need to set big commerce API keys to connect with it. se the API keys in the settings section of this plugin. then once the user's status mark approved, it will be auto-created as a bigcommerce user at the BC site.
 
+You need to set the below keys ... must be latest version.
+X-Auth-Client  , X-Auth-Token , Store Hash 
+
 TYPEFORM WebHook Url
 https://xxxxxx.com/wp-content/plugins/bcuserapproval/webhook.php
 
