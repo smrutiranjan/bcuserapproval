@@ -317,8 +317,8 @@ function buusersetting() {
  <div style="clear:both;margin-top:20px"> 
 <p>TYPEFORM WebHook Url</p> 
 <p><strong><?php echo plugin_dir_url( __FILE__ )."webhook.php";?></strong></p>	 
-<p>Set up Crontab -e as below..<br/>
-* * * * * <?php echo plugin_dir_path( __FILE__ );?>/cron.php 
+<p>Once BC User has set status to "Approved" , it will automatically create same user as BC customer at bigcommerce site and mark the status as "Executed".
+In case curl is enabled at php but not work instead of terminal check /etc/SELINUX/conf to modify to SELINUX=disabled, it will work.
 </p>       
     </div>
 	</div>
